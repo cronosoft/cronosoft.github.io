@@ -63,7 +63,6 @@ h1 {
 	-moz-transition: opacity: 2s;
 	border-radius: 15px;
 	min-height: 400px;
-	box-shadow: 0 0 30px cyan;
 }
 
 #obiect-gri {
@@ -94,7 +93,6 @@ h1 {
 
 .produs-img {
 	height: 80px;
-	box-shadow: 0 0 30px #14a9e3;
 	border-radius: 5px;
 }
 
