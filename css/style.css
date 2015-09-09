@@ -53,6 +53,14 @@ h1 {
 	background-color: rgba(80, 80, 80, 0.75);
 	width: 99%;
 	height: 99%;
+	border-radius: 15px;
+}
+
+#obiect-gri-inchis {
+	width: 99%;
+	height: 99%;
+	border-radius: 15px;
+	background-color: #444444;
 }
 
 @keyframes fade-in {
@@ -71,4 +79,22 @@ h1 {
 
 #section2>.padding-container-50>h1 {
 	color: gray;
+}
+
+.produs-img {
+	height: 80px;
+	box-shadow: 0 0 30px #14a9e3;
+}
+
+#section3 {	
+	padding: 10%;
+	background-image: url('../img/poza3.jpg');
+	background-size: cover;
+}
+
+#contact {
+	width: 100%;
+	padding: 55px;
+	background-color: #444444;	
+	text-align: center;
 }
