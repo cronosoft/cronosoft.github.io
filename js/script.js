@@ -29,6 +29,7 @@ $(function () {
             if (distance < 200 && distance > -200 && currentURL != URL) {
                 if (currentURL != "") $("#" + currentURL + "-menu").removeClass('active');
                 currentURL = URL;
+                console.log("#" + currentURL + "-menu");
                 $("#" + currentURL + "-menu").addClass('active');
             }
         });
