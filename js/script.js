@@ -19,13 +19,16 @@ $(function() {
 });
 
 $(function () {
-    var currentURL = ""
+    var currentURL = "";
+    var lastURL = "";
     $(document).scroll(function () {
         $('.anchor').each(function () {
             var top = window.pageYOffset;
             var distance = top - $(this).offset().top;
             var URL = $(this).attr('name');
 
+
+            console.log(currentURL);
             if (distance < 200 && distance > -200 && currentURL != URL) {
                 if (currentURL != "") $("#" + currentURL + "-menu").removeClass('active');
                 currentURL = URL;
@@ -36,6 +39,13 @@ $(function () {
                 }
                 if (currentURL == "preturi") {
                     document.getElementById("obiect-gri-inchis").setAttribute("style", "margin-top: 0px");
+                }
+
+
+                if (currentURL == "despre" || currentURL == "top") {
+                    $("body").css("background-image", "url('img/poza2.jpg')");
+                    $("body").css("background-size", "cover");
+                    $("body").css("background-attachment", "fixed");
                 }
             }
         });
