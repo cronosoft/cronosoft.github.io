@@ -35,10 +35,10 @@ $(function () {
                 $("#" + currentURL + "-menu").addClass('active');
 
                 if (currentURL == "despre") {
-                    document.getElementById("obiect-gri").setAttribute("style", "margin-top: 0px");
+                    document.getElementById("obiect-gri").setAttribute("style", "opacity: 1;");
                 }
                 if (currentURL == "preturi") {
-                    document.getElementById("obiect-gri-inchis").setAttribute("style", "margin-top: 0px");
+                    document.getElementById("obiect-gri-inchis").setAttribute("style", "opacity: 1;");
                 }
 
 

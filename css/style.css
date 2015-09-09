@@ -56,12 +56,11 @@ h1 {
 }
 
 .obiect {
-	margin-top: -10000px;
-
-	transition: margin-top 2s;
-	-webkit-transition: margin-top: 2s;
-	-o-transition: margin-top: 2s;
-	-moz-transition: margin-top: 2s;
+	opacity: 0;
+	transition: opacity 2s;
+	-webkit-transition: opacity: 2s;
+	-o-transition: opacity: 2s;
+	-moz-transition: opacity: 2s;
 	border-radius: 15px;
 	min-height: 400px;
 	box-shadow: 0 0 30px cyan;
