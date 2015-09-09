@@ -53,18 +53,24 @@ h1 {
 	background-size: cover;
 }
 
-#obiect-gri {
-	background-color: rgba(80, 80, 80, 0.75);
+.obiect {
+	margin-top: -10000px;
+
+	transition: margin-top 1s;
+	-webkit-transition: margin-top: 1s;
+	-o-transition: margin-top: 1s;
+	-moz-transition: margin-top: 1s;
 	border-radius: 15px;
 	min-height: 400px;
 	box-shadow: 0 0 30px cyan;
 }
 
+#obiect-gri {
+	background-color: rgba(80, 80, 80, 0.75);
+}
+
 #obiect-gri-inchis {
-	border-radius: 15px;
 	background-color: #444444;
-	min-height: 400px;
-	box-shadow: 0 0 30px cyan;
 }
 
 @keyframes fade-in {

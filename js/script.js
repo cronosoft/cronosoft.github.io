@@ -30,6 +30,13 @@ $(function () {
                 if (currentURL != "") $("#" + currentURL + "-menu").removeClass('active');
                 currentURL = URL;
                 $("#" + currentURL + "-menu").addClass('active');
+
+                if (currentURL == "despre") {
+                    document.getElementById("obiect-gri").setAttribute("style", "margin-top: 0px");
+                }
+                if (currentURL == "preturi") {
+                    document.getElementById("obiect-gri-inchis").setAttribute("style", "margin-top: 0px");
+                }
             }
         });
     });
