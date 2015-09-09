@@ -43,24 +43,24 @@ h1 {
 	padding: 50px;
 }
 
+.padding-container-relative {
+	padding: 10%;
+}
+
+
 #section1 {
-	padding: 5%;
 	background-image: url('../img/poza2.jpg');
 	background-size: cover;
 }
 
 #obiect-gri {
 	background-color: rgba(80, 80, 80, 0.75);
-	width: 99%;
-	height: 99%;
 	border-radius: 15px;
 	min-height: 400px;
 	box-shadow: 0 0 30px cyan;
 }
 
 #obiect-gri-inchis {
-	width: 99%;
-	height: 99%;
 	border-radius: 15px;
 	background-color: #444444;
 	min-height: 400px;
@@ -88,10 +88,10 @@ h1 {
 .produs-img {
 	height: 80px;
 	box-shadow: 0 0 30px #14a9e3;
+	border-radius: 5px;
 }
 
 #section3 {	
-	padding: 5%;
 	background-image: url('../img/poza3.jpg');
 	background-size: cover;
 }
