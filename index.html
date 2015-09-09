@@ -2,6 +2,8 @@
 <head>
 	<meta charset = "utf-8" />
 	<title> Cronosoft </title>
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+
 	<link rel = "stylesheet" href = "css/glyphicons.css" />
 	<link rel = "stylesheet" href = "css/bootstrap.css" />
 	<link rel = "stylesheet" href = "css/jquery-ui.css" />
@@ -24,6 +26,10 @@
 					<span class = "icon-bar"> </span>
 					<span class =" icon-bar"> </span>
 				</button>
+
+				<a href = "#top" class = "navbar-brand">
+	                <img src = "img/logo2.png" id = "logo" />
+	            </a>
 		    </div>
 
 		    <div class = "collapse navbar-collapse" id = "navbar-collapse">
@@ -31,17 +37,17 @@
 					<li> </li>
 				</ul>
 		        <ul class = "nav navbar-nav navbar-right">
-		      		<li class = "btn active">
-		      			1
+		      		<li id = "despre-menu">
+		      			<a href = "#despre"> Despre </a>
 					</li>
-		      		<li class = "btn">
-		      			2
+		      		<li id = "produse-menu">
+		      			<a href = "#produse"> Produse </a>
 					</li>
-		      		<li class = "btn">
-		      			3
+		      		<li id = "preturi-menu">
+		      			<a href = "#preturi"> Prețuri </a>
 					</li>
-		      		<li class = "btn">
-		      			4
+		      		<li id = "contact-menu">
+		      			<a href = "#contact"> Contact </a>
 					</li>
 		        </ul>
 		    </div>
@@ -55,6 +61,7 @@
 		</div>
 	</div>
 
+	<a name = "despre"> </a>
 	<div class = "section" id = "section1">
 		<div id = "obiect-gri">
 			<div class = "padding-container-50">
@@ -64,6 +71,7 @@
 		</div>
 	</div>
 
+	<a name = "produse"> </a>
 	<div class = "section" id = "section2">
 		<div class = "padding-container-50">
 			<h1> Produse Cronosoft </h1>
@@ -96,6 +104,7 @@
 		</div>
 	</div>
 
+	<a name = "preturi"> </a>
 	<div class = "section" id = "section3">
 		<div id = "obiect-gri-inchis">
 			<div class = "padding-container-50">
@@ -105,7 +114,8 @@
 		</div>
 	</div>
 
-	<div id = "contact">
+	<a name = "contact"> </a>
+	<div class = "section" id = "contact">
 		<h1> Contact </h1>
 	</div>
 </body>

@@ -98,3 +98,8 @@ h1 {
 	background-color: #444444;	
 	text-align: center;
 }
+
+#logo {
+	height: 40px;
+	margin-top: -10px;
+}
