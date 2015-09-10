@@ -70,7 +70,7 @@ h1 {
 }
 
 #obiect-gri-inchis {
-	background-color: #444444;
+	background-color: rgba(50, 50, 50, 0.75);
 }
 
 @keyframes fade-in {
@@ -92,7 +92,7 @@ h1 {
 }
 
 .produs-img {
-	height: 80px;
+	height: 150px;
 	border-radius: 5px;
 	cursor: pointer;
 	transition: height 1s;

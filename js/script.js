@@ -54,7 +54,7 @@ $(function () {
 
 var showProductText = function(index) {
     console.log(index);
-    $("#imagine-produs" + index).css("height", "60px");
+    $("#imagine-produs" + index).css("height", "100px");
     setTimeout(function() {
         $("#prezentare-produs" + index).css("opacity", 1);
     }, 500);
