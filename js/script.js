@@ -37,16 +37,17 @@ $(function () {
                 if (currentURL == "despre") {
                     document.getElementById("obiect-gri").setAttribute("style", "opacity: 1;");
                 }
-                if (currentURL == "preturi") {
+                if (currentURL == "tarife") {
                     document.getElementById("obiect-gri-inchis").setAttribute("style", "opacity: 1;");
                 }
 
-
+                /*
                 if (currentURL == "despre" || currentURL == "top") {
                     $("body").css("background-image", "url('img/poza2.jpg')");
                     $("body").css("background-size", "cover");
                     $("body").css("background-attachment", "fixed");
                 }
+                */
             }
         });
     });
