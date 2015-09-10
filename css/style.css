@@ -94,6 +94,11 @@ h1 {
 .produs-img {
 	height: 80px;
 	border-radius: 5px;
+	cursor: pointer;
+	transition: height 1s;
+	-webkit-transition: height: 1s;
+	-o-transition: height: 1s;
+	-moz-transition: height: 1s;
 }
 
 #section3 {	
@@ -111,4 +116,14 @@ h1 {
 #logo {
 	height: 40px;
 	margin-top: -10px;
+}
+
+.text-produs {
+	margin-top: 20px;
+	text-align: justify;
+	opacity: 0;
+	transition: opacity 2s;
+	-webkit-transition: opacity: 2s;
+	-o-transition: opacity: 2s;
+	-moz-transition: opacity: 2s;
 }

@@ -28,7 +28,6 @@ $(function () {
             var URL = $(this).attr('name');
 
 
-            console.log(currentURL);
             if (distance < 200 && distance > -200 && currentURL != URL) {
                 if (currentURL != "") $("#" + currentURL + "-menu").removeClass('active');
                 currentURL = URL;
@@ -52,3 +51,11 @@ $(function () {
         });
     });
 });
+
+var showProductText = function(index) {
+    console.log(index);
+    $("#imagine-produs" + index).css("height", "60px");
+    setTimeout(function() {
+        $("#prezentare-produs" + index).css("opacity", 1);
+    }, 500);
+}
