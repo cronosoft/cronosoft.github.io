@@ -46,6 +46,11 @@ h1 {
 	padding: 50px;
 }
 
+.padding-container-20 {
+	padding: 20px;
+}
+
+
 .padding-container-relative {
 	padding: 10%;
 }
@@ -69,11 +74,11 @@ p {
 }
 
 #obiect-gri {
-	background-color: rgba(80, 80, 80, 0.75);
+	background-color: rgba(80, 80, 80, 0.8);
 }
 
 #obiect-gri-inchis {
-	background-color: rgba(50, 50, 50, 0.75);
+	background-color: rgba(50, 50, 50, 0.8);
 }
 
 @keyframes fade-in {
@@ -123,10 +128,30 @@ p {
 
 .text-produs {
 	margin-top: 20px;
-	text-align: justify;
+	text-align: left;
 	opacity: 0;
 	transition: opacity 2s;
 	-webkit-transition: opacity: 2s;
 	-o-transition: opacity: 2s;
 	-moz-transition: opacity: 2s;
+}
+
+.product-background {
+	float: right;
+	margin: 20px;
+	width: 50%;
+	min-width: 300px;
+	padding: 30px;
+	text-align: justify;
+	color: white;
+	background-color: rgba(80, 80, 80, 0.8);
+	font-family: 'Slabo 27px', serif;
+}
+
+p {
+	text-align: justify;
+}
+
+h1 {
+	text-align: center;
 }
