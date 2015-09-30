@@ -1,7 +1,6 @@
 body {
 	font-family: century gothic;
 	color: #14a9e3;
-	background-image: url('../img/poza2.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -126,14 +125,12 @@ p {
 	margin-top: -10px;
 }
 
-.text-produs {
-	margin-top: 20px;
-	text-align: left;
-	opacity: 0;
-	transition: opacity 2s;
-	-webkit-transition: opacity: 2s;
-	-o-transition: opacity: 2s;
-	-moz-transition: opacity: 2s;
+
+.product-logo {
+	height: 130px;
+	display: inline-block;
+	margin: 5%;
+	cursor: pointer;
 }
 
 .product-background {

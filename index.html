@@ -69,7 +69,7 @@
 	</div>
 
 	<a class = "anchor" name = "despre"> </a>
-	<div class = "section background-section" back-img = {{'img/poza4.jpg'}}>
+	<div class = "section background-section" back-img = {{'img/poza2.jpg'}}>
 		<div class = "padding-container-relative">
 			<div id = "obiect-gri" class = "obiect">
 				<div class = "padding-container-50">
@@ -86,53 +86,9 @@
 		<div class = "padding-container-50">
 			<h1> Produse Cronosoft </h1>
 
-			<!--
-			<br /> 
-			<center>
-				<div class = "row">
-					<div class = "col-md-3 col-sm-3">
-						<div class = "padding-container-50">
-							<img src = "img/produs1.png" class = "produs-img" id = "imagine-produs1" onmouseover = "showProductText(1)"/>
-							<div class = "text-produs" id = "prezentare-produs1">
-								<p> MedIT este o aplicație dedicată personalului medical, având ca scop îmbunătățirea activităților desfășurate de către acesta. Astfel, specialiștilor în sănătate li se oferă ocazia de a se implica mai mult în ceea ce este cu adevărat important: menținerea relației cu pacienții și perfecționarea actului medical. </p><p> Atingerea acestui scop se realizează prin intermediul facilităților propuse de MedIT, printre acestea enumerându-se organizarea eficientă a programului fiecărui medic, administrarea completă a echipei și rapoartele dinamice de gestiune contabilă, toate acestea fiind prezentate printr-o interfață ergonomică, foarte ușor de utilizat. </p>
-							</div>
-						</div>
-					</div>
-					<div class = "col-md-3 col-sm-3">
-						<div class = "padding-container-20">
-							<img src = "img/produs2.png" class = "produs-img" id = "imagine-produs2" onmouseover = "showProductText(2)"/>
-							<div class = "text-produs" id = "prezentare-produs2">
-								<p> Lookit, aplicația concepută pentru saloanele ce-și doresc calitate la un preț accesibil, are ca scop sistematizarea muncii depuse de către personalul angajat. </p>
-								<p> Softul oferă posibilitatea gestionării rapide și eficiente a angajaților, precum și a programului acestora. </p>
-								<p> Astfel, aceștia își pot concentra atenția asupra sarcinilor esențiale, precum satisfacerea nevoilor clienților și sporirea calității serviciilor de înfrumusețare oferite. </p>
-							</div>
-						</div>
-					</div>
-					<div class = "col-md-3 col-sm-3">
-						<div class = "padding-container-20">
-							<img src = "img/produs3.png" class = "produs-img" id = "imagine-produs3" onmouseover = "showProductText(3)"/>
-							<div class = "text-produs" id = "prezentare-produs3">
-								<p> Bookit este aplicația adresată complexelor turistice ce are ca scop eficientizarea serviciilor, punându-le la dispozitie mai mult timp pentru înfăptuirea priorităților. </p>
-								<p> Calendarul dinamic oferit de soft, precum și rapoartele complete crează o experientă sigură și eficientă. </p>
-							</div>
-						</div>
-					</div>
-					<div class = "col-md-3 col-sm-3">
-						<div class = "padding-container-50">
-							<img src = "img/produs4.jpg" class = "produs-img" id = "imagine-produs4" onmouseover = "showProductText(4)"/>
-							<div class = "text-produs" id = "prezentare-produs4">
-								<p> Eventit, cu siguranță cel mai creativ și adaptabil soft al nostru, satisface toate cerințele unui event-maker oferindu-va posibilitatea de a personaliza aplicația înca de la început, în funcție de dorințele dumneavoastră. </p>
-								<p> Astfel, puteți rezerva locații precum restaurante de lux, săli de conferință, săli de teatru ori spații de agrement, economisind timp ce poate fi folosit pentru a vă apropia mai mult de client pentru a organiza evenimentul dorit. </p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</center>
-		</div>
-	</div>
-
-	
-	-->
+		<center>
+			<img class = "product-logo" ng-repeat = "product in products" ng-src = "{{product.logo}}" />
+		</center>
 	</div>
 
 	<div class = "section background-section" ng-repeat = "product in products" back-img = {{product.back}}>
@@ -145,8 +101,9 @@
 	</div>
 
 
+
 	<a class = "anchor" name = "tarife"> </a>
-	<div class = "section background-section" id = "section3" back-img = {{'img/poza3.jpg'}}>
+	<div class = "section background-section" back-img = {{'img/poza4.jpg'}}>
 		<div class = "padding-container-relative">
 			<div id = "obiect-gri-inchis" class = "obiect">
 				<div class = "padding-container-50" style = "padding-left: 0px; padding-right: 0px;">
@@ -222,7 +179,7 @@
 		<br /> <br />
 
 		<h3> Turcu Andrei Cristian </h3>
-		<h4> (Administrator CronoSoft) </h4>
+		<h4> (Administrator Cronosoft) </h4>
 		<h4> <span class = "glyphicon glyphicon-earphone"></span> 0731078657 </h4>
 
 	</div>
