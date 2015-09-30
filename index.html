@@ -8,7 +8,6 @@
 	<link rel = "stylesheet" href = "css/bootstrap.css" />
 	<link rel = "stylesheet" href = "css/jquery-ui.css" />
 	<link rel = "stylesheet" href = "css/style.css" />
-	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 
 	<script src = "js/jQuery.js"> </script>
 	<script src = "js/jquery-ui.js"> </script>
@@ -87,11 +86,14 @@
 			<h1> Produse Cronosoft </h1>
 
 		<center>
-			<img class = "product-logo" ng-repeat = "product in products" ng-src = "{{product.logo}}" />
+			<div ng-repeat = "product in products" class = "product-logo">
+				<a href = "#{{product.name}}"> <img style = "height: 130px;" ng-src = "{{product.logo}}" /> </a>
+			</div>
 		</center>
 	</div>
 
 	<div class = "section background-section" ng-repeat = "product in products" back-img = {{product.back}}>
+		<a class = "anchor" name = "{{product.name}}"> </a>
 		<div class = "product-background">
 			<h1> {{product.name}} </h1>
 
