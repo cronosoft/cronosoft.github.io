@@ -69,7 +69,7 @@
 	</div>
 
 	<a class = "anchor" name = "despre"> </a>
-	<div class = "section" id = "section1">
+	<div class = "section background-section" back-img = {{'img/poza2.jpg'}}>
 		<div class = "padding-container-relative">
 			<div id = "obiect-gri" class = "obiect">
 				<div class = "padding-container-50">
@@ -131,8 +131,22 @@
 		</div>
 	</div>
 
+	
+	-->
+	</div>
+
+	<div class = "section background-section" ng-repeat = "product in products" back-img = {{product.back}}>
+		<div class = "product-background">
+			<h1> {{product.name}} </h1>
+
+			<br />
+			<p> {{product.description}} </p>
+		</div>
+	</div>
+
+
 	<a class = "anchor" name = "tarife"> </a>
-	<div class = "section" id = "section3">
+	<div class = "section background-section" id = "section3" back-img = {{'img/poza3.jpg'}}>
 		<div class = "padding-container-relative">
 			<div id = "obiect-gri-inchis" class = "obiect">
 				<div class = "padding-container-50" style = "padding-left: 0px; padding-right: 0px;">
@@ -195,17 +209,7 @@
 				</div>
 			</div>
 		</div>
-	-->
-	</div>
 
-	<div class = "section" ng-repeat = "product in products" back-img = {{product.back}}>
-		<div class = "product-background">
-			<h1> {{product.name}} </h1>
-
-			<br />
-			<p> {{product.description}} </p>
-		</div>
-	</div>
 
 	<a class = "anchor" name = "contact"> </a>
 	<div class = "section" id = "contact">
@@ -222,5 +226,8 @@
 		<h4> <span class = "glyphicon glyphicon-earphone"></span> 0731078657 </h4>
 
 	</div>
+
+
+
 </body>
 </html>

@@ -6,7 +6,8 @@ app.directive('backImg', function(){
         var url = attrs.backImg;
         element.css({
             'background-image': 'url(' + url +')',
-            'background-size' : 'cover'
+            'background-size' : 'cover',
+            'background-attachment': 'fixed'
         });
     };
 })

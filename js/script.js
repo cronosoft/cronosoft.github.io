@@ -39,18 +39,23 @@ $(function () {
                 if (currentURL == "tarife") {
                     document.getElementById("obiect-gri-inchis").setAttribute("style", "opacity: 1;");
                 }
+                
+            }
+        });
+        $('.background-section').each(function () {
+            var top = window.pageYOffset;
+            var distance = top - $(this).offset().top;
 
-                /*
-                if (currentURL == "despre" || currentURL == "top") {
-                    $("body").css("background-image", "url('img/poza2.jpg')");
-                    $("body").css("background-size", "cover");
-                    $("body").css("background-attachment", "fixed");
-                }
-                */
+
+            if (distance < 50 && distance > -50) {
+                $("body").css("background-image", $(this).css('background-image'));
+                $("body").css("background-size", "cover");
+                $("body").css("background-attachment", "fixed");                
             }
         });
     });
 });
+
 
 var showProductText = function(index) {
     console.log(index);
