@@ -8,19 +8,19 @@
 	{
 		"name": "LookIT",
 		"logo": "img/produs2.png",
-		"back": "https://scontent-vie1-1.xx.fbcdn.net/hphotos-xlf1/v/t35.0-12/12062543_932912033434562_155679296_o.jpg?oh=4b34d78c9a5958a9b4692365121a16f6&oe=5612CC01",
+		"back": "img/fabulous.jpg",
 		"description": "Lookit, aplicația concepută pentru saloanele ce-și doresc calitate la un preț accesibil, are ca scop sistematizarea muncii depuse de către personalul angajat. Softul oferă posibilitatea gestionării rapide și eficiente a angajaților, precum și a programului acestora. Astfel, aceștia își pot concentra atenția asupra sarcinilor esențiale, precum satisfacerea nevoilor clienților și sporirea calității serviciilor de înfrumusețare oferite."
 	},
 	{
 		"name": "BookIT",
 		"logo": "img/produs3.png",
-		"back": "https://scontent-vie1-1.xx.fbcdn.net/hphotos-xpf1/v/t35.0-12/12062832_932912093434556_763620747_o.jpg?oh=f09ff020d23a3a6e7644cf648f4dccae&oe=5612EC95",
+		"back": "img/hotel.jpg",
 		"description": "Bookit este aplicația adresată complexelor turistice ce are ca scop eficientizarea serviciilor, punându-le la dispozitie mai mult timp pentru înfăptuirea priorităților. Calendarul dinamic oferit de soft, precum și rapoartele complete crează o experientă sigură și eficientă."
 	},
 	{
 		"name": "EventIT",
 		"logo": "img/produs4.jpg",
-		"back": "https://scontent-vie1-1.xx.fbcdn.net/hphotos-xat1/v/t34.0-12/12080846_934124016646697_2054543963_n.jpg?oh=7d35d58f96d1b6e2b8648f1d9a55637a&oe=5611D033",
+		"back": "img/pahare.jpg",
 		"description": "Eventit, cu siguranță cel mai creativ și adaptabil soft al nostru, satisface toate cerințele unui event-maker oferindu-va posibilitatea de a personaliza aplicația înca de la început, în funcție de dorințele dumneavoastră. Astfel, puteți rezerva locații precum restaurante de lux, săli de conferință, săli de teatru ori spații de agrement, economisind timp ce poate fi folosit pentru a vă apropia mai mult de client pentru a organiza evenimentul dorit."
 	}
 ]
